@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Server=tcp:ss1-servidor-proyecto.database.windows.net,1433;Initial Catalog=ss1-base-datos-proyecto;Persist Security Info=False;User ID=admin-201313997;Password=Pikachu2015;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\luis5\\OneDrive\\Documentos\\Visual\ Studio\ 2015\\Projects\\SS1_Proyecto_PP\\SS1_Proyecto_PP\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
