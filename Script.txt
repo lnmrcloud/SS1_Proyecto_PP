@@ -1,0 +1,5 @@
+CREATE TABLE Recomendacion (
+  id  INT NOT NULL IDENTITY PRIMARY KEY,
+  Nombre VARCHAR(100)  NOT NULL,
+  Comentario  VARCHAR(1000) NOT NULL,
+);
